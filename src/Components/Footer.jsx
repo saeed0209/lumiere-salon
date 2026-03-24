@@ -31,7 +31,7 @@ const Footer = () => {
       ),
       content: (
         <a href="#" className="text-gray-400 hover:text-pink-500 transition">
-          123 Beauty Avenue, Medical Complex, Islamabad
+          123 Beauty Avenue, Medical Complex, London
         </a>
       ),
     },
@@ -39,7 +39,7 @@ const Footer = () => {
       icon: <MdPhone className="text-pink-500 text-xl mt-1 mr-4 shrink-0" />,
       content: (
         <a href="#" className="text-gray-400 hover:text-pink-500 transition">
-          +92 312 3456789
+          +44 7568 23456
         </a>
       ),
     },

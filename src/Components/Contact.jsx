@@ -14,7 +14,7 @@ const Contact = () => {
       content: (
         <p className="text-gray-600">
           123 Beauty Avenue, Medical Complex <br />
-          Islamabad
+          London
         </p>
       ),
     },
@@ -25,12 +25,12 @@ const Contact = () => {
         <p className="text-gray-600">
           Appointments:{" "}
           <a href="#" className="hover:text-pink-600">
-            +92 312 3456789
+            +44 7568 23456
           </a>{" "}
           <br />
           Emergency:{" "}
           <a href="#" className="hover:text-pink-600">
-            +92 321 3456789
+            +44 7568 23457
           </a>
         </p>
       ),
