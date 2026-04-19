@@ -11,20 +11,23 @@
     <div id="root"></div>
     <script type="module" src="/src/main.jsx"></script>
     <script type="text/javascript">
-  (function(d, t) {
-      var v = d.createElement(t), s = d.getElementsByTagName(t)[0];
-      v.onload = function() {
-        window.voiceflow.chat.load({
-          verify: { projectID: '69d7718a9305caa59e6647ae' },
-          url: 'https://general-runtime.voiceflow.com',
-          versionID: 'production',
-          voice: {
-            url: "https://runtime-api.voiceflow.com"
-          }
-        });
-      }
-      v.src = "https://cdn.voiceflow.com/widget-next/bundle.mjs"; v.type = "text/javascript"; s.parentNode.insertBefore(v, s);
-  })(document, 'script');
-</script>
+      (function (d, t) {
+        var v = d.createElement(t),
+          s = d.getElementsByTagName(t)[0];
+        v.onload = function () {
+          window.voiceflow.chat.load({
+            verify: { projectID: "69d7718a9305caa59e6647ae" },
+            url: "https://general-runtime.voiceflow.com",
+            versionID: "production",
+            voice: {
+              url: "https://runtime-api.voiceflow.com",
+            },
+          });
+        };
+        v.src = "https://cdn.voiceflow.com/widget-next/bundle.mjs";
+        v.type = "text/javascript";
+        s.parentNode.insertBefore(v, s);
+      })(document, "script");
+    </script>
   </body>
 </html>
